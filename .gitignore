@@ -1,0 +1,39 @@
+# Файлы окружения
+.env
+*.env
+
+# Локальные настройки
+settings/local.py
+settings/dev.py
+
+# Директории и файлы Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# Директории Django
+media/
+staticfiles/
+
+# Базы данных
+*.sqlite3
+*.db
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Виртуальное окружение
+venv/
+env/
+*.venv
+
+# Системные файлы
+.DS_Store
+Thumbs.db
